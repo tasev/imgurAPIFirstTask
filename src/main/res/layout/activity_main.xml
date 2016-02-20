@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context=".activities.MainActivity">
+<TextView
+    android:id="@+id/asincConunter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text=""
+    android:visibility="gone"
+    android:textColor="@color/colorPrimary"
+    style="@style/Base.TextAppearance.AppCompat.Large"
+    android:layout_margin="@dimen/activity_horizontal_margin"/>
+    <ImageView
+        android:id="@+id/imgMatrix"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/matrix_global"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MatrixTest</string>
+
+    <!-- Check Internet -->
+    <string name="check_internet_title">Connection failed</string>
+    <string name="check_internet_message">Please check your connection settings</string>
+    <string name="check_internet_settings">Retry</string>
+    <string name="check_internet_cancel">Cancel</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
